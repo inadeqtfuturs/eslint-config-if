@@ -8,7 +8,7 @@
     "prettier"
   ],
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/inadeqtfuturs/eslint-config-if",
   "author": "if",
   "license": "copyleft",
   "devDependencies": {
