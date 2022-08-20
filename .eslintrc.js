@@ -1,5 +1,6 @@
 module.exports = {
-  extends: ['airbnb', 'prettier', 'plugin:prettier/recommended'],
+  extends: ['airbnb', 'prettier'],
+  plugins: ['prettier'],
   env: {
     browser: true,
     commonjs: true,
@@ -8,10 +9,11 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 2020
   },
   root: true,
   rules: {
+    'linebreak-style': ['error', 'unix'],
     'jsx-a11y/href-no-hash': ['off'],
     'react/jsx-filename-extension': [
       'warn',
